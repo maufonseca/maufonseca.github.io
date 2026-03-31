@@ -51,11 +51,26 @@ header {
 
 .header-main {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 24px;
   flex-wrap: wrap;
   margin-bottom: 20px;
+}
+
+.header-identity {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255,255,255,0.2);
+  flex-shrink: 0;
 }
 
 header h1 {
@@ -340,6 +355,7 @@ footer a {
   }
 
   .header-actions { display: none; }
+  .avatar { display: none; }
 
   main { padding: 20px 0 0; }
 
