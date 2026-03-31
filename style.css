@@ -145,7 +145,7 @@ header h1 {
 .contact-row span { color: rgba(255,255,255,0.35); }
 
 /* ─── Main ─── */
-main {
+main.container {
   padding: 72px 24px 64px;
 }
 
@@ -357,7 +357,7 @@ footer a {
   .header-actions { display: none; }
   .avatar { display: none; }
 
-  main { padding: 20px 0 0; }
+  main.container { padding: 20px 0 0; }
 
   section { margin-bottom: 28px; }
 
